@@ -5,7 +5,7 @@ import pandas as pd
 
 def plot(df,df_std):
     """ 
-    tempのデータを可視化する.
+    標準化前と後のデータセットを可視化する.
 
     args:
         DataFrame df; プロットする標準化前のデータセット
