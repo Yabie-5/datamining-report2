@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from standardization import std_scaler
 import dataset
 import Linear_svc
-import plot
+import plot2
 
 
 def main():
@@ -41,6 +41,9 @@ def main():
 
     # 標準化前のデータセットをロード.
     default = dataset.load_dataset()
+
+    # データセットを可視化.
+    plot2.plot(default, df_std)
 
     # 標準化前のデータセットで学習.
     result_messeges.append(Linear_svc.fit_k_folds(default))
