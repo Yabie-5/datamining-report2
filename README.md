@@ -1,0 +1,2 @@
+# datamining-report2
+データマイニングのレポート2をpushする用のリポジトリ
