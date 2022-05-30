@@ -1,10 +1,7 @@
-from pydoc import cli
-from random import seed
-from numpy import append
 from sklearn.svm import LinearSVC
-import dataset
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import KFold
+import dataset
 
 #linearSVCのハイパーパラメータのうちCについて、0.5, 0.1, 1.5の3つを考える.
 def fit_k_folds(data):
